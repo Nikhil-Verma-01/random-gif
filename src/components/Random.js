@@ -15,7 +15,6 @@ const Random = () => {
     flex flex-col items-center gap-y-5 mt-[15px]'>
 
         <h1 className='mt-[15px] text-2xl underline uppercase font-bold'>Random GIF</h1>
-
         {
           loading ? (<Spinner/>) : (<img src={gif} width="400" />)
         }
